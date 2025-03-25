@@ -41,7 +41,7 @@ async function deleteComplaint(id) {
     document.location.reload();
 }
 
-loadComplaints();';
+loadComplaints();
 
 document.getElementById('complaintForm').addEventListener('submit', async (e) => {
     e.preventDefault();
